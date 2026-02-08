@@ -1,6 +1,6 @@
 # MuriloSantna
 
-Pequena IA de demonstração baseada em aprendizado simples. Ela usa um classificador Naive Bayes treinado com exemplos curtos para identificar a intenção do usuário (cumprimento, hora, identidade, agradecimento e despedida).
+IA de demonstração um pouco mais esperta: usa um modelo simples de intenção com TF-IDF + similaridade cosseno, adiciona reforço por palavras-chave e mantém memória leve (como o nome do usuário).
 
 ## Como executar
 
