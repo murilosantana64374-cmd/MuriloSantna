@@ -10,7 +10,11 @@ def run() -> None:
             print("Até mais!")
             break
         response = assistant.respond(message)
-        print(f"{response.text} (confiança: {response.confidence:.1f})")
+        print(
+            f"{response.text} (confiança: {response.confidence:.2f}, intenção: {response.intent})"
+        )
+        if response.intent == "goodbye":
+            break
 
 
 if __name__ == "__main__":

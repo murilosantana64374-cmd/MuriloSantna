@@ -1,6 +1,6 @@
 # MuriloSantna
 
-Pequena IA de demonstração baseada em regras. Ela responde cumprimentos, pede mais detalhes quando não entende e consegue informar a hora atual.
+Pequena IA de demonstração baseada em aprendizado simples. Ela usa um classificador Naive Bayes treinado com exemplos curtos para identificar a intenção do usuário (cumprimento, hora, identidade, agradecimento e despedida).
 
 ## Como executar
 
